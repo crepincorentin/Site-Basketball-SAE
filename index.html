@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url("img/image_basket.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+     </style>
+    <link rel="shortcut icon" href="/img/ico.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Événement IUT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="http://www.iut.univ-littoral.fr/wp/calais/"><img src="img/logo iut.jpg" id="logo" /></a></li>
+                    <div id="menu">
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="événement.html">+ d'infos sur l'événement</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="Etude_de_marche.html">Marché du Sport</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+        <header>
+            <h1>Tournoi de Basketball</h1>
+            <h3>Organisé par l'IUT de Calais</h3>
+            <p>Le samedi 07 mai 2022, de 10h à 18h, à l'ULCO</p>
+            <button type="button"><a href="#inscription">S'inscrire</a></button>
+        </header>
+        <div class="inscription">
+        <section id="inscription"> 
+            <div class="inscription">
+                <form>   
+                    <div style="text-align:center">
+        
+                    <h1>Inscrivez vous</h1>   
+                        <select name="statut" id="statut" required="true" placeholder="statut">
+                            <option value="etudiant">Etudiant</option>
+                            <option value="enseignant">Enseignant</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                        
+                        <input type="text" id="nom" required="true" placeholder="Nom">
+                        
+                        <input type="text" id="prenom" required="true" placeholder="Prenom">
+                        
+                        <input type="email" id="mail" required="true" placeholder="E-mail">
+                        
+                        <input type="text" id="telephone" required="true" placeholder="Numéro de téléphone">
+                        
+                        <input type="submit" id="boutton" value="S'inscrire" />
+                </form>  
+               </div>   
+        </section>
+        <div id="trait"></div>
+        </div>
+        <div id="sport">
+            <ul>
+                <li><a href="#">Mentions légales</a></li>
+            </ul>
+        </div>
+</body>
+</html>

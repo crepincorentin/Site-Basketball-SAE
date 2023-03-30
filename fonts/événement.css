@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Luxurious+Roman&family=Montserrat&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:wght@500&family=Luxurious+Roman&family=Montserrat&family=Roboto:wght@100;300&display=swap');
+
+
+
+#carte {
+    padding-left: 60%;
+    position: absolute;
+    width: 700px;
+    padding-top: 10px;
+  }
+  
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #212529;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*barre de navigation*/
+
+
+.nav{
+    position: fixed;
+    width: 100%;
+}
+
+#logo{
+    width: 100px;
+    height: 50px;
+    padding-top: 2px;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav ul{
+    background-color: rgb(255, 94, 0);
+    overflow: hidden;
+    border-bottom: 3px solid;
+}
+
+.nav li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav li a:hover{
+    background-color: white;
+}
+
+#menu{
+    float: right;
+    padding: 15px;
+    display: block;
+}
+
+
+.info{
+    padding:80px;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h3{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1{
+    font-family: 'Archivo Black';
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.horaires{
+    padding:80px;
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+h4{
+    display: inline;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.tarif{
+    padding:80px;
+    color: white;
+    padding-top: 0px;
+}
+
+#regle{
+    padding: 80px;
+    color: white;
+    padding-bottom: 0px;
+}
+
+#carte{
+    padding-left: 55%;
+    position: absolute;
+    width: 700px;
+    margin-top: -400px;
+    height: 500px;
+}

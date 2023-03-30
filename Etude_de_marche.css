@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Luxurious+Roman&family=Montserrat&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:wght@500&family=Luxurious+Roman&family=Montserrat&family=Roboto:wght@100;300&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #212529;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+/*barre de navigation*/
+
+.nav {
+  position: fixed;
+  width: 100%;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: bold;
+
+}
+
+#bottom_div {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#logo {
+  width: 100px;
+  height: 50px;
+  padding-top: 2px;
+  border-radius: 10px;
+}
+
+/*  ------------------ TEXT -------------- */
+
+p {
+  font-size: 225%;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav ul {
+  background-color: rgb(255, 94, 0);
+  overflow: hidden;
+  border-bottom: 3px solid;
+}
+
+.nav li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Archivo Narrow', sans-serif;
+
+}
+
+.nav li a:hover {
+  background-color: white;
+}
+
+#menu {
+  float: right;
+  padding: 15px;
+  display: block;
+}
+
+a:hover{
+  background-color: white;
+}
+
+#menu a{
+  font-weight: bold;
+  font-size: 1em;
+
+}
+
+#contact {
+  padding-top: 50px;
+  padding-left: 110px;
+  color: white;
+  font-size: 230%;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: bold;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#trait{
+  height: 1px;
+  width: 50%;
+  margin: -3px auto;
+  background-color: #FFFAE1;
+  box-shadow: 1px 3px 2px black;
+  margin-top: 10%;
+}
+
+#mentions ul li{
+  display: inline;
+  margin-right: 15px;
+}
+
+#mentions{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+#mentions li a{
+  font-size: 20px;
+  color: white;
+}
+
